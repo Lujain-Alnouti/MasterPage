@@ -1,0 +1,121 @@
+﻿
+@{
+    ViewBag.Title = "Category";
+}
+<style>
+    .tab {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .button {
+        position: relative;
+        display: inline-block;
+        margin: 15px;
+        padding: 5px 10px;
+        text-align: center;
+        font-size: 15px;
+        letter-spacing: 1px;
+        text-decoration: none;
+        color: #0A4438;
+        background: transparent;
+        cursor: pointer;
+        transition: ease-out 0.5s;
+        border: 2px solid #0A4438;
+        border-radius: 10px;
+        box-shadow: inset 0 0 0 0 #0A4438;
+    }
+
+        .button:hover {
+            color: white;
+            box-shadow: inset 0 -100px 0 0 #0A4438;
+        }
+
+        .button:active {
+            transform: scale(0.9);
+        }
+
+    .IconColor {
+        color: #169179 !important;
+    }
+</style>
+
+<h2 style="text-align:center; margin-top:10px" class="IconColor">Category</h2>
+<hr />
+<div class="container-fluid pt-4 px-4">
+    <a class="btn button" href="~/AdminDashboard/AddCategory">Add Category</a>
+    <div class="table-responsive">
+        <table class="table text-start align-middle table-bordered table-hover mb-0">
+
+            <tr class="text-dark">
+                <th scope="col">Category</th>
+                <th scope="col">Category Image</th>
+                <th scope="col"># Product</th>
+                <th scope="col">Satistics</th>
+                <th></th>
+              
+              
+            </tr>
+
+            <tr>
+                <td>BEDS</td>
+                <td>BEDS</td>
+                <td>4</td>
+                <td>30%</td>
+                <td>
+                    <a class="btn btn-success" href="~/AdminDashboard/EditCategory">Edit</a>
+                    &nbsp;
+                    <a class="btn btn-danger" href="~/AdminDashboard/DeleteCategory">Delete</a>
+                </td>
+             
+
+            </tr>
+            <tr>
+                <td>DEVICES</td>
+                <td>DEVICES</td>
+                <td>7</td>
+                <td>20%</td>
+                <td>
+                    <a class="btn btn-success" href="~/AdminDashboard/EditCategory">Edit</a>
+                    &nbsp;
+                    <a class="btn btn-danger" href="~/AdminDashboard/DeleteCategory">Delete</a>
+                </td>
+            </tr>
+            <tr>
+                <td>MEDICAL DISPOSABLES</td>
+                <td>MEDICAL DISPOSABLES</td>
+                <td>10</td>
+                <td>30%</td>
+                <td>
+                    <a class="btn btn-success" href="~/AdminDashboard/EditCategory">Edit</a>
+                    &nbsp;
+                    <a class="btn btn-danger" href="~/AdminDashboard/DeleteCategory">Delete</a>
+                </td>
+            </tr>
+            <tr>
+                <td>DIAGNOSTIC EQUIPMENTS</td>
+                <td>DIAGNOSTIC EQUIPMENTS</td>
+                <td>15</td>
+                <td>15%</td>
+                <td>
+                    <a class="btn btn-success" href="~/AdminDashboard/EditCategory">Edit</a>
+                    &nbsp;
+                    <a class="btn btn-danger" href="~/AdminDashboard/DeleteCategory">Delete</a>
+                </td>
+            </tr>
+            <tr>
+                <td>CHAIRS</td>
+                <td>CHAIRS</td>
+                <td>6</td>
+                <td>10%</td>
+                <td>
+                    <a class="btn btn-success" href="~/AdminDashboard/EditCategory">Edit</a>
+                    &nbsp;
+                    <a class="btn btn-danger" href="~/AdminDashboard/DeleteCategory">Delete</a>
+                </td>
+            </tr>
+
+        </table>
+    </div>
+
+</div>
