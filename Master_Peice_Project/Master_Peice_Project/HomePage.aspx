@@ -36,10 +36,10 @@
   <!-- Template Main CSS File -->
     <link href="HomeCSS/css/style.css" rel="stylesheet" />
     <style>
-        *{
+        /**{
             font-family:'Times New Roman';
 
-        }
+        }*/
         .content{
             background-color:#0A4438 !important;
                 height: 175px;

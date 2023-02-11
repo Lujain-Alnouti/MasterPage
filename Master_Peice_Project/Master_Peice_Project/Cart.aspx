@@ -33,8 +33,8 @@ border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(2.5px);
 -webkit-backdrop-filter: blur(2.5px);
-            font-family:'Times New Roman';
-        }
+/*            font-family:'Times New Roman';
+*/        }
         @media (min-width: 1025px) {
 .h-custom {
 height: 100vh !important;

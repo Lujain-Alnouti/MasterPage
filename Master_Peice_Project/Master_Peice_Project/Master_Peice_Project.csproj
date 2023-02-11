@@ -79,6 +79,7 @@
     <Content Include="AdminDash\Admin\UserOrders.aspx" />
     <Content Include="AdminDash\Admin\WebUserControl2.ascx" />
     <Content Include="AdminDash\Admin\WebUserControl3.ascx" />
+    <Content Include="ErrorPageUser.aspx" />
     <Content Include="Global.asax" />
     <Content Include="HomeCSS\css\style.css" />
     <Content Include="HomeCSS\img\about.jpg" />
@@ -203,6 +204,7 @@
     <Content Include="ContactUs.aspx" />
     <Content Include="AboutUs.aspx" />
     <Content Include="website\1.png" />
+    <Content Include="website\about.jpg" />
     <Content Include="website\Bed1P.jpg" />
     <Content Include="website\Bed2.jpg" />
     <Content Include="website\Bed2P.jpg" />
@@ -255,6 +257,7 @@
     <Content Include="website\rrrrr.jpg" />
     <Content Include="website\screen.jpg" />
     <Content Include="website\scss\Readme.txt" />
+    <Content Include="website\Simple Shiny.svg" />
     <Content Include="website\vendor\animate.css\animate.compat.css" />
     <Content Include="website\vendor\animate.css\animate.css" />
     <Content Include="website\vendor\animate.css\animate.min.css" />
@@ -410,6 +413,13 @@
     </Compile>
     <Compile Include="AdminDash\Admin\WebUserControl3.ascx.designer.cs">
       <DependentUpon>WebUserControl3.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorPageUser.aspx.cs">
+      <DependentUpon>ErrorPageUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ErrorPageUser.aspx.designer.cs">
+      <DependentUpon>ErrorPageUser.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

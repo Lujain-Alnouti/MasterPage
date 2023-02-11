@@ -33,8 +33,8 @@
         body{
             background-color:#E6E6E6;
             color:#0A4438;
-            font-family:'Times New Roman';
-        }
+/*            font-family:'Times New Roman';
+*/        }
         .form-control{
 
         border: 2px solid #bdc1d2;
@@ -341,7 +341,7 @@
             
         }
         .title{
-            font-size:25px;
+            font-size:20px;
             text-align:center;
             font-style:italic;
             font-weight:bold;
@@ -384,10 +384,10 @@
         </div>
         <div class="rightSide">
             <div class="title">
-            <asp:Label ID="title" runat="server" Text="Electric Bed"></asp:Label> <br /><br />
+            <p id="title" runat="server" >Electric Bed</p> 
             </div>
            
-                <asp:Label ID="Description" runat="server" Text=" * Bed with mechanically HDPE removable and interchangeable Head and foot panel <br/> * Electrically operated with Remote control, Back rest (0 - 77º), Foot rest (0-35º), Height adjustment, Trendelenburg Tilting (0-18 °)and Reverse Trendelenburg (0-18°)<br/> * Fowler and vascular positions, Manual Knee Mechanism with Three positions <br/> * Size : L 2285mmXW975mmX H (490mm-890 mm). Bed Extension L 180 mm.<br/> * Epoxy powder coated Framework with X-ray permeable Backrest, X-ray cassette holder">
+                <asp:Label ID="Description" runat="server" style="font-size:15px;" Text=" * Bed with mechanically HDPE removable and interchangeable Head and foot panel <br/> * Electrically operated with Remote control, Back rest (0 - 77º), Foot rest (0-35º), Height adjustment, Trendelenburg Tilting (0-18 °)and Reverse Trendelenburg (0-18°)<br/> * Fowler and vascular positions, Manual Knee Mechanism with Three positions <br/> * Size : L 2285mmXW975mmX H (490mm-890 mm). Bed Extension L 180 mm.<br/> * Epoxy powder coated Framework with X-ray permeable Backrest, X-ray cassette holder">
 
             </asp:Label><br /> 
             <br />

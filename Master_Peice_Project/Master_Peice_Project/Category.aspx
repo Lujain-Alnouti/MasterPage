@@ -79,8 +79,8 @@
        
         body {
             /*background-color:#E6E6E6;*/
-            font-family:'Times New Roman';
-        }
+/*            font-family:'Times New Roman';
+*/        }
 
         .containerxx {
   position: relative;
@@ -178,7 +178,8 @@
       <div class="carousel-caption d-none d-md-block top-right " style="color:#0A4438">
         <h5 class="titleSlider"> Finding Best Products Now in Your Fingertips</h5>
         <p class="subTitleSlider">Best Products With Best Place</p>
-          <button Class="btn  ButtonSlider" style="background-color:#0A4438; color:#E6E6E6; border-radius:5px;"><a href="#cate" style="text-decoration:none; color:#E6E6E6;">Categories</a></button>
+          <button Class="btn  ButtonSlider" style="background-color:#0A4438; color:#E6E6E6; border-radius:5px;">
+              <a href="#cate" style="text-decoration:none; color:#E6E6E6; font-size:20px">Categories</a></button>
           
           <%--<asp:Button ID="Button1" runat="server" Text="Categories" CssClass="btn  ButtonSlider" style="background-color:#0A4438; color:#E6E6E6; border-radius:5px;"/>--%>
       </div>

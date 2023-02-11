@@ -44,10 +44,10 @@
     transition: 0.4s;
     border-radius: 50px;
 }
-        *{
+       /* *{
             font-family:'Times New Roman';
 
-        }
+        }*/
         .content{
             background-color:#0A4438 !important;
                 height: 175px;

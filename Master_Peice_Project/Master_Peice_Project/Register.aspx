@@ -12,6 +12,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
       <script src="https://kit.fontawesome.com/a8b56cb52b.js" crossorigin="anonymous"></script>
 <style>
+    body{
+
+    }
     .marTopDIV {
         margin-top:-45px;
     }
@@ -199,9 +202,13 @@
                   </div>
 
                   <div class="d-flex justify-content-center  mb-lg-4 buttons">
-                       <asp:Button ID="home" runat="server" Text="Home" CssClass="btn btn-primary btn-lg" style="background-color:#0A4438;"/>
+                      <a class="btn btn-lg" style="background-color:#0A4438; color:white" href="HomePage.aspx">Home</a>
+                      <a class="btn btn-lg spacBet" style="background-color:#0A4438; color:white">Register</a>
 
-                      <asp:Button ID="register" runat="server" Text="Register" CssClass="btn btn-primary btn-lg spacBet" style="background-color:#0A4438;"  ValidationGroup="REG"/>
+<%--                   
+                      <%-- <asp:Button ID="home" runat="server" Text="Home" CssClass="btn btn-primary btn-lg" style="background-color:#0A4438;"/>
+
+                      <asp:Button ID="register" runat="server" Text="Register" CssClass="btn btn-primary btn-lg spacBet" style="background-color:#0A4438;"  ValidationGroup="REG"/>--%>
 <%--                    <button type="button" class="btn btn-primary btn-lg" style="background-color:#0A4438;">Register</button>--%>
                   </div>
 

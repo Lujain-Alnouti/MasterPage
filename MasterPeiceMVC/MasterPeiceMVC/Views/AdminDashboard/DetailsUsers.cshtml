@@ -134,6 +134,14 @@
     </div>*@
 
 <style>
+    .IconColor1 {
+        font-family: 'Times New Roman';
+        color: #0A4438 !important;
+    }
+
+    .IconColor {
+        color: #169179 !important;
+    }
 
     body {
         margin-top: 20px;
@@ -261,8 +269,35 @@
     .rounded {
         border-radius: 0.25rem !important;
     }
+    .carCon {
+        width: 35%;
+        margin-left: 32.5%;
+    }
+
+
+    @@media only screen and (min-device-width:0px) and (max-device-width:480px) {
+        .carCon {
+            width: 100%;
+            margin-left: 0%;
+        }
+
+        .donebutton {
+            margin-left: 25%;
+        }
+    }
+
+    @@media only screen and (min-device-width:481px) and (max-device-width:786px) {
+        .carCon {
+            width: 60%;
+            margin-left: 20%;
+        }
+
+        .donebutton {
+            margin-left: 34%;
+        }
+    }
 </style>
-<h2 style="text-align:center; margin-top:30px" class="IconColor">User Details</h2>
+<h2 style="text-align:center; margin-top:30px" class="IconColor1">User Details</h2>
 <hr />
 
 <div class="container-fluid pt-4 px-4">
@@ -276,21 +311,22 @@
                             <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="...">
                         </div>*@
                         <div class="col-lg-12 px-xl-10">
-                            <div class="bg-secondary d-lg-inline-block py-1-9 px-1-9 px-sm-6 mb-1-9 rounded">
-                                <h3 class="h2 text-white mb-0">John mark Doe Kyzer</h3>
-                                <span class="text-primary">Coach</span>
+                            <div class="carCon">
+                                <div class="bg-secondary d-lg-inline-block py-1-9 px-1-9 px-sm-6 mb-1-9 rounded">
+                                    <h3 class="h2 text-white mb-0">John mark Doe Kyzer</h3>
+                                    <span class="text-primary">Coach</span>
+                                </div>
+                                <ul class="list-unstyled mb-1-9">
+
+                                    <li class="mb-2 mb-xl-3 display-28"><span class="display-26 text-secondary me-2 font-weight-600">Email:</span> edith@mail.com</li>
+                                    <li class="mb-2 mb-xl-3 display-28"><span class="display-26 text-secondary me-2 font-weight-600">Phone Number:</span> 079xxxxxxx</li>
+
+                                </ul>
                             </div>
-                            <ul class="list-unstyled mb-1-9">
-
-                                <li class="mb-2 mb-xl-3 display-28"><span class="display-26 text-secondary me-2 font-weight-600">Email:</span> edith@mail.com</li>
-                                <li class="mb-2 mb-xl-3 display-28"><span class="display-26 text-secondary me-2 font-weight-600">Phone Number:</span> 079xxxxxxx</li>
-
-                            </ul>
-
                         </div>
                         <hr />
                         @*<div>
-                            <input type="text" class="form-control" /> <a class="btn btn-primary">Search</a>
+                            <input type="text" class="" /> <a class="btn btn-primary">Search</a>
                         </div>*@
                         <hr />
                         <div class="col-lg-12 mb-4 mb-sm-5">
@@ -314,7 +350,7 @@
                                     <td>2-5-2022</td>
                                     <td>1500 JD</td>
 
-                                    <td><a class="btn btn-warning" href="~/AdminDashboard/DetailsUsers">Details</a></td>
+                                    <td><a class="btn btn-warning" href="~/AdminDashboard/OrderDetails">Details</a></td>
                                 </tr>
                                 <tr>
                                     <td>2</td>
@@ -372,7 +408,7 @@
                                         <td>2-5-2022</td>
                                         <td>1500 JD</td>
 
-                                        <td><a class="btn btn-warning" href="~/AdminDashboard/DetailsUsers">Details</a></td>
+                                        <td><a class="btn btn-warning" href="~/AdminDashboard/OrderDetails">Details</a></td>
                                     </tr>
                                     <tr>
                                         <td>2</td>

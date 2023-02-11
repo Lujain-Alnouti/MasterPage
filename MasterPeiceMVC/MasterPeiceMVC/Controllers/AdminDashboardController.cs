@@ -60,5 +60,30 @@ namespace MasterPeiceMVC.Controllers
             return View();
         }
 
+        public ActionResult DoneOrder()
+        {
+            return View();
+        }
+
+        public ActionResult ProgressOrder ()
+        {
+            return View();
+        }
+
+        public ActionResult ProgressOrderDetails()
+        {
+            return View();
+        }
+
+        public ActionResult Rating()
+        {
+            return View();
+        }
+
+        public ActionResult ErrorPage()
+        {
+            return View();
+        }
+
     }
 }

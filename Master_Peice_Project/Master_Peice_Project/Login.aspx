@@ -13,6 +13,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
       <script src="https://kit.fontawesome.com/a8b56cb52b.js" crossorigin="anonymous"></script>
 <style>
+   body{
+     /*  background-image:url("../Downloads/SimpleShiny.svg");
+       background-repeat:no-repeat;
+       background-size:cover;*/
+       background-color:#0A4438;
+       
+   }
     .widthTEXT{
         width:80%;
         margin-left:10%;
@@ -111,7 +118,7 @@ border: 1px solid rgba(230, 230, 230, 0.14);
     }
 </style>
 </head>
-<body style="background-color:#0A4438">
+<body>
     <form id="form1" runat="server">
         <div>
            <section class="vh-100 divCon ">
@@ -154,7 +161,7 @@ border: 1px solid rgba(230, 230, 230, 0.14);
                     </div>
                   </div>
 
-                  <div class="d-flex flex-row align-items-center mb-4 widthTEXT">
+                  <div class="d-flex flex-row align-items-center mb-1 widthTEXT">
                     <i class="fas fa-lock fa-lg me-3 fa-fw" style="color:#0A4438;"></i>
                     <div class="form-outline flex-fill mb-0">
                        <asp:Label ID="Label3" runat="server" Text="Password" CssClass="form-label" style="color:#0A4438; font-family:'Times New Roman'"></asp:Label>
@@ -176,20 +183,29 @@ border: 1px solid rgba(230, 230, 230, 0.14);
                      <asp:CompareValidator ID="CompareValidator1" runat="server" ErrorMessage="Password Not Match" ForeColor="Red" ControlToCompare="PassTxt" ControlToValidate="ConfTxt" Type="String" Operator="Equal"  ValidationGroup="REG"></asp:CompareValidator>
                     </div>
                   </div>--%>
-
-                  <div class="form-check d-flex justify-content-center mb-5">
+                      <div class="d-flex justify-content-center mb-3">
+                   <a class="btn" style="background-color:#0A4438; color:white"><i class="fa-brands fa-facebook-f" style="font-size:20px"></i></a>
+                          <a class="btn spacBet" style="background-color:#0A4438; color:white"><i class="fa-brands fa-google"  style="font-size:20px"></i></a>
+</div>
+                  <div class="form-check d-flex justify-content-center mb-2">
                      <%--<asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
 
                     <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3c" />--%>
-                    <label class="form-check-label" for="form2Example3">
+                    <p class="form-check-label" for="form2Example3">
                       I don't have account <a href="Register.aspx">Register</a>
-                    </label>
+                    </p>
+                      <br />
+                    
                   </div>
-
+                   
                   <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                       <asp:Button ID="home" runat="server" Text="Home" CssClass="btn btn-primary btn-lg" style="background-color:#0A4438;"/>
 
-                      <asp:Button ID="login" runat="server" Text="Login" CssClass="btn btn-primary btn-lg spacBet" style="background-color:#0A4438;"  ValidationGroup="Log"/>
+                      <a class="btn" style="background-color:#0A4438; color:white" href="HomePage.aspx">Home</a>
+                      <a class="btn spacBet" style="background-color:#0A4438; color:white">Login</a>
+
+<%--                       <asp:Button ID="home" runat="server" Text="Home" CssClass="btn btn-lg" style="background-color:#0A4438;"/>--%>
+
+<%--                      <asp:Button ID="login" runat="server" Text="Login" CssClass="btn btn-primary btn-lg spacBet" style="background-color:#0A4438;"  ValidationGroup="Log"/>--%>
 <%--                    <button type="button" class="btn btn-primary btn-lg" style="background-color:#0A4438;">Register</button>--%>
                   </div>
 

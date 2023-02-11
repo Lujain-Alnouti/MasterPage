@@ -1,5 +1,11 @@
 ﻿
 @{
+    ViewBag.Title = "ProgressOrderDetails";
+}
+
+
+
+@{
     ViewBag.Title = "OrderDetails";
 }
 
@@ -9,9 +15,11 @@
         font-family: 'Times New Roman';
         color: #0A4438 !important;
     }
+
     .IconColor {
         color: #169179 !important;
     }
+
     body {
         margin-top: 20px;
     }
@@ -29,6 +37,8 @@
         display: flex;
         flex-direction: column;
         min-width: 0;
+      /*  width:60%;
+        margin-left:20%;*/
         word-wrap: break-word;
         background-color: #fff;
         background-clip: border-box;
@@ -139,22 +149,39 @@
         border-radius: 0.25rem !important;
     }
 
-
-
-    .carCon {
-        width: 35%;
-        margin-left: 32.5%;
+    .donebutton {
+        margin-left: 34%;
+        border: none;
+        outline: none;
+        background-color: #0A4438;
+        padding: 10px 20px;
+        font-size: 12px;
+        font-weight: 700;
+        color: #E6E6E6;
+        border-radius: 5px;
+        transition: all ease 0.1s;
+        box-shadow: 0px 5px 0px 0px #ABD7CE;
+        margin-bottom: 20px;
     }
+
+        .donebutton:active {
+            color: #E6E6E6;
+            transform: translateY(5px);
+            box-shadow: 0px 0px 0px 0px #ABD7CE;
+        }
+        .carCon{
+            width:35%;
+            margin-left:32.5%;
+        }
 
 
     @@media only screen and (min-device-width:0px) and (max-device-width:480px) {
         .carCon {
-            width: 100%;
-            margin-left: 0%;
+            width:100%;
+            margin-left:0%;
         }
-
         .donebutton {
-            margin-left: 25%;
+            margin-left:25%;
         }
     }
 
@@ -170,7 +197,7 @@
     }
 
 </style>
-<h2 style="text-align:center; margin-top:30px" class="IconColor1">Order Details</h2>
+<h2 style="text-align:center; margin-top:30px" class="IconColor1">Progress Order Details</h2>
 <hr />
 
 <div class="container-fluid pt-4 px-4">
@@ -181,8 +208,8 @@
                 <div class="card-body p-1-9 p-sm-2-3 p-md-6 p-lg-7">
                     <div class="row align-items-center">
                         @*<div class="col-lg-6 mb-4 mb-lg-0">
-                            <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="...">
-                        </div>*@
+                                <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="...">
+                            </div>*@
                         <div class="col-lg-12 px-xl-10">
                             <div class="carCon">
                                 <div class="bg-secondary d-lg-inline-block py-1-9 px-1-9 px-sm-6 mb-1-9 rounded">
@@ -195,11 +222,13 @@
                                     <li class="mb-2 mb-xl-3 display-28"><span class="display-26 text-secondary me-2 font-weight-600">Phone Number:</span> 079xxxxxxx</li>
                                     <li class="mb-2 mb-xl-3 display-28"><span class="display-26 text-secondary me-2 font-weight-600">Order ID :</span> 1</li>
                                 </ul>
+                                <a class="btn donebutton"> Done Order </a>
                             </div>
-
                         </div>
                         <hr />
-
+                        @*<div>
+                                <input type="text" class="form-control" /> <a class="btn btn-primary">Search</a>
+                            </div>*@
                         <hr />
                         <div class="col-lg-12 mb-4 mb-sm-5">
                             <div>
@@ -260,7 +289,7 @@
                                 </table>
                             </div>
                         </div>
-                       
+
 
                     </div>
                 </div>
@@ -268,5 +297,5 @@
         </div>
     </div>
 </div>
-       
-   
+
+

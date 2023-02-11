@@ -313,6 +313,11 @@
     <Content Include="Views\AdminDashboard\EditProduct.cshtml" />
     <Content Include="Views\AdminDashboard\DeleteProduct.cshtml" />
     <Content Include="Views\AdminDashboard\OrderDetails.cshtml" />
+    <Content Include="Views\AdminDashboard\DoneOrder.cshtml" />
+    <Content Include="Views\AdminDashboard\ProgressOrder.cshtml" />
+    <Content Include="Views\AdminDashboard\ProgressOrderDetails.cshtml" />
+    <Content Include="Views\AdminDashboard\Rating.cshtml" />
+    <Content Include="Views\AdminDashboard\ErrorPage.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
